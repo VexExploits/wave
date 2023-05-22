@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background: #000000f1;
+display:  flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.music-player{
+    background: #0f0f0ff1;
+    width: 400px;
+    padding: 105px 35px;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+nav .music-player{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #0f0f0ff1;
+    color: rgb(58, 50, 170);
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+.song-img{
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid rgb(58, 50, 170);
+    box-shadow: 0 10px 60px rgba(255, 26, 26,0.22);
+}
+.music-player h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(58, 50, 170);
+    margin-top: 20px;
+    background: #0f0f0ff1;
+}
+.small-image:hover::before {
+    content: "i hate faggots";
+    position: absolute;
+    top: -20px; /* Adjust the distance above the check mark as needed */
+    color: rgb(58, 50, 170);
+    font-weight: bold;
+  }
+  
+.btn {
+    background-color: #0f0f0ff1;
+    color: rgb(58, 50, 170);
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.small-image-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .small-image {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+
+  .small-image-container::after {
+    content: "i hate faggots ";
+    position: absolute;
+    top: -30px; /* Adjust the distance above the small image as needed */
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #0f0f0ff1;
+    color: rgb(58, 50, 170);
+    padding: 5px;
+    border-radius: 4px;
+    transition: visibility 0s, opacity 0.3s;
+  }
+
+  .small-image-container:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+  body {
+    background-image: url("skid-stormfn.gif");
+    
+    animation: animatedBackground 10s infinite;
+  }
+
+  @keyframes animatedBackground {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+}
+.founder-text {
+    color: rgb(58, 50, 170);
+    background-color: #0f0f0ff1;
+    padding: 2px 4px; /* Optional: Add padding to give some space around the text */
+  }
